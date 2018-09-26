@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="CSS/game.css">
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+		<link rel="shortcut icon" href="TemplateData/favicon.ico">
+		<link rel="stylesheet" href="TemplateData/style.css">
+		<script src="TemplateData/UnityProgress.js"></script>  
+		<script src="Build/UnityLoader.js"></script>
+		<script>
+			var gameInstance = UnityLoader.instantiate("gameContainer", "Build/New folder.json", {onProgress: UnityProgress});
+		</script>
+	</head>
+	<body>
+		<div id="Container">
+			<div id="header">
+				<p id="title">Intermediate</p>
+				<a id="Home" href="Home.html">Home</a>
+				<a id="Game" >Game</a>
+			</div>
+			<div id="Canvus">
+				<div id="SubTitleBox">
+					<p id="SubTitle">Stuff</p>
+				</div>
+				<div id="gameContainer"></div>
+			</div>
+		</div>
+	</body>
+</html>
